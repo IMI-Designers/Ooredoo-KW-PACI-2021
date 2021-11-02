@@ -1,0 +1,142 @@
+//buttons
+.btn{
+    border-radius: 38px;
+    border:1px solid $color-black;
+    padding:8px 30px;
+    font-size:14px;
+}
+//
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: $color-white;
+
+    &:link {
+      color: $color-white;
+    }
+    &:hover {
+      background-color: $color-white;
+      color: $primary;
+      border: 1px solid $primary;
+    }
+    &:active {
+      color: $primary;
+    }
+   
+  }
+  
+  .btn-secondary {
+    background-color:$color-white;
+    border-color: $primary; 
+    color: $primary;
+    
+    &:link {
+      color: $color-white;
+    }
+    &:hover {
+      background-color: $primary;
+      border-color:$primary; 
+      color: $color-white;
+    }
+    &:active {
+      color:$color-white;
+    }
+  }
+
+  .btn-outline-primary {
+    background-color:$color-white;
+    border-color: $primary; 
+    color: $primary;
+    padding: 6px 20px;
+    
+    &:link {
+      color: $color-white;
+    }
+    &:hover {
+      background-color: $primary;
+      border-color:$primary; 
+      color: $color-white;
+      padding: 6px 20px;
+    }
+    &:active {
+      padding: 6px 20px;
+    }
+  }
+  
+  .allow {
+    background-color: $color-blue;
+    border-color: $color-blue; 
+    color: $color-white;
+    padding: 6px 20px;
+    
+    &:link {
+      color: $color-white;
+    }
+    &:hover {
+      background-color: $color-blue;
+      border-color: $color-blue;
+      color: $color-white;
+      padding: 6px 20px;
+    }
+    
+    &:active {
+      padding: 6px 20px; 
+    }
+  }
+  
+  .alert {
+    background-color: $primary;
+    border-color: $primary; 
+    color: $color-white;
+    padding: 6px 20px;
+    
+    &:link {
+      color: $color-white;
+    }
+    
+    &:hover {
+      background-color:$primary;
+      border-color:$primary;
+      color: $color-white;
+      padding: 6px 20px;
+    }
+    
+    &:active {
+      height: 30px;
+      padding: 6px 20px;
+      line-height:30px;
+    }
+  }
+  
+  .btn-primary-oh {
+    font-family:$headding;
+    font-size:12px;
+  }
+  .btn-secondary-oh {
+    font-family:$headding;
+    font-size:12px;
+  }
+
+  //show more btn
+  .loadmore-btn {
+    text-align: center;
+    .loadbutton {
+      font-size: 14px;
+      height: 40px;
+      width: 75%;
+      border-radius: 8px;
+      background: #ececec;
+      color: #212121;
+      padding: 5px 30px;
+      margin: 0 auto;
+      border: 1px solid #ececec;
+      cursor: pointer;
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .btn-outline-primary {
+    padding: 6px 20px;
+}
+}

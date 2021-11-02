@@ -1,0 +1,105 @@
+ // GLOBAL VARIABLES
+ @font-face {
+    font-family: 'ooredoo-heavy';
+    src: url('fonts/Ooredoo-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+ @font-face {
+    font-family: 'NotoRegular';
+    src: url('fonts/noto_sansregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Notolight';
+    src: url('fonts/NotoSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Notobold';
+    src: url('fonts/noto_sansbold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Ooredoo Font family
+$headding:'ooredoo-heavy', Arial, Helvetica, sans-serif;
+$bodytext:'NotoRegular', Arial, Helvetica, sans-serif;
+$thintext:'Notolight', Arial, Helvetica, sans-serif;
+$boldtext:'Notobold', Arial, Helvetica, sans-serif;
+
+// scss-docs-start theme-color-variables
+$primary: #ed1c24 ;
+$secondary: #221E20;
+// scss-docs-end theme-color-variables
+
+// Section: Variables
+$color-white: #ffffff;
+$color-light: #f1f5f8;
+$color-black: #000000;
+$color-night: #001632;
+$color-blue: #2196f3;
+$white: #fff;
+$dark-gray: #858585;
+$gray: #A9A9AA;
+$d-gray:#BCBCBC;
+$dc-gray:#BABABA;
+
+$shadow-normal: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+//css
+hr{color:#DFDFE1;}
+.mr-2{margin-right:2rem;}
+.w80{width:80%}
+.headtop-mt110{margin-top:110px;}
+.headtop-mt160{margin-top:160px;}
+
+//mobile menu
+@keyframes slideLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(100%);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0%);
+   }
+}
+
+
+@keyframes slideRight {
+   0% {
+      opacity: 1;
+      transform: translateX(0%);
+   }
+   100% {
+      opacity: 0;
+      transform: translateX(100%);
+   }
+}
+
+a,
+button {
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: none;
+   text-decoration: none;
+
+@media only screen and (max-width: 768px) {
+      cursor: default !important;
+      border: none;
+      outline: none;
+   }
+}

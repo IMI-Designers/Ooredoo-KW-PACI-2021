@@ -1,0 +1,35 @@
+//Global SCSS Files
+
+//1-HELPERS
+//*Example - variables, mixins, functions
+@import 'vendor/1-helpers/variables';
+@import 'vendor/1-helpers/mixins';
+
+//2-TOOLS
+//Bootstrap v5.1.3
+//@import 'vendor/2-tools/bootstrap-scss/bootstrap';
+
+//Swiper 7.2.0
+@import 'vendor/2-tools/swiper/swiper.min';
+
+//3-BASICS
+//*Example - Global, Buttons, Links, Typography
+@import 'vendor/3-basics/global';
+@import 'vendor/3-basics/buttons';
+@import 'vendor/3-basics/typography';
+@import 'vendor/3-basics/forms';
+
+//4-LAYOUTS
+//*Example - Header, Footer, Swiper, All Big things
+@import 'vendor/4-layout/header';
+@import 'vendor/4-layout/footer';
+
+//5-MODULES
+//*Example - widgets, social logos, All small things
+@import 'vendor/5-modules/header';
+@import 'vendor/5-modules/main-banner-comp';
+@import 'vendor/5-modules/filter-comp';
+@import 'vendor/5-modules/modal-popups';
+
+//6-PAGES OR COMPONENTS
+//*Example - Pages or component related styles
